@@ -1,0 +1,45 @@
+body {
+  color: #ffffff;
+}
+.section {
+  background-color: #2e2e30;
+}
+.section.alt {
+  background-color: #444447;
+}
+.section.highlight {
+  background-color: #53e0dc;
+}
+.section .container-inner {
+  width: 800px;
+  margin: auto;
+}
+.section.header {
+  border-bottom: 1px solid #575759;
+}
+.section.header .container-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section.header .heading {
+  display: table-cell;
+  font-size: 2.3em;
+  line-height: 3em;
+}
+.section.header .nav-container {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.section.header .nav-container div {
+  float: right;
+}
+.section.header .nav-container a {
+  color: #a0a0a0;
+  margin-left: 50px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.highlight {
+  color: #53e0dc;
+}
